@@ -1,13 +1,52 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Home
+order: 1
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="line banners">
+  <div class="container line2">
+    <div class="col-1 col-pad">
+      <h3>freight truckload</h3>
+      <img alt="" src="/assets/images/page1-img1.jpg" /><br />
+      <p class="extra-text">Sed laoreet aliquam leoeif turpiger rutrum an eu lacu. Vestibulum libero nisl porteris que eget malesuada at neque vamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros.</p>
+      <a href="#" class="link"><span>read more</span></a>
+    </div>
+    <div class="col-2 col-pad">
+      <h3>careers with us</h3>
+      <img alt="" src="/assets/images/page1-img2.jpg" /><br />
+      <p class="extra-text">Vestibulum libero nisl porteris que egeada at neque vamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aeno stibulum ante ipsum primis in fauciborci luctus et u
+ltrices posuere cubilia.</p>
+      <a href="#" class="link"><span>read more</span></a>
+    </div>
+    <div class="col-3">
+      <h3>freight guaranteed</h3>
+      <img alt="" src="/assets/images/page1-img3.jpg" /><br />
+      <p class="extra-text">Sed laoreet aliquam leoeif turpiger rutrum an eu lacu. Vestibulum libero nisl porteris que eget malesuada at neque vamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros.</p>
+      <a href="#" class="link"><span>read more</span></a>
+    </div>
+  </div>
+</div>
+<div class="container margin1">
+  <div class="col-1 col-pad">
+    <h3>Welcome note</h3>
+    <div class="container">
+      <img alt="" src="/assets/images/page1-img4.jpg" class="imgindent" />
+      <h6>Eces tristique orci ac suis ultricic sit ips doler adipiscig  ferme ntum dict magna. Sed laoreet aliqm leoeif ant eu lacustibulum</h6>
+      Libero nisl, porta vel, scelerisque eget, malesuadaeque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eroibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubiliaiss sollicitudin velit sed leo pharetra augue nec augu elit ma amdun acerra sed nulla. Donec porta diam eu massuisque diam loremum vitaeaibus ac scelerisque vitae pede. Donec eget tellus non erat.
+    </div>
+  </div>
+  <div class="col-2">
+    <h3>Contact us</h3>
+    <form id="ContactForm" action="" enctype="multipart/form-data">
+      <div>
+        <label><input type="text" class="input" value="Your Name" onblur="if(this.value=='') this.value='Your Name'" onfocus="if(this.value =='Your Name' ) this.value=''" /></label>
+        <label><input type="text" class="input" value="Your Email" onblur="if(this.value=='') this.value='Your Email'" onfocus="if(this.value =='Your Email' ) this.value=''" /></label>
+        <textarea cols="1" rows="1" onblur="if(this.value=='') this.value='Message'" onfocus="if(this.value =='Message' ) this.value=''" >Message</textarea>
+        <div class="taright">
+          <input type="image" src="/assets/images/form-button.gif" />
+        </div>
+      </div>
+    </form>
+  </div>
 </div>

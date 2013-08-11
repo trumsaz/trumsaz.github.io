@@ -1,0 +1,104 @@
+/* CSS Document */
+
+* {
+	margin:0; padding:0;
+	font-size:100%;
+}
+
+body{
+	background:#000 url(../images/body-tail.gif) top center;
+	text-align:center;
+}
+
+img {vertical-align:top;}
+a img { border:0;}
+
+ul { list-style:none;}
+
+.left { float:left;}
+.right {float:right;}
+.clear  { clear:both;}
+
+
+html, input, textarea
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:0.813em;
+		line-height:1.385em;
+		color:#7a7a7a;
+	}
+
+input, select { vertical-align:middle; font-weight:normal;}
+
+a {color:#7a7a7a;}
+a:hover{text-decoration:none;}
+p {padding-top:18px;}
+
+/* ============================= main layout ====================== */
+
+li { background:url(../images/marker1.gif) no-repeat 0 7px; padding-left:12px; line-height:1.692em;}
+
+.imgindent {margin:0 20px 0 0; float:left;}
+
+/* ============================= header ====================== */
+
+.logo {position:absolute; margin:53px 0 0 641px;}
+
+.row1 {background:#000; font-size:.769em; text-transform:uppercase; line-height:1em; color:#5f5f5f; padding:9px 24px 9px 15px;}
+.submenu {float:right;}
+.submenu li {display:inline; border-left:1px solid #5f5f5f; padding-left:6px; margin-left:5px; line-height:1em; background:none;}
+.submenu li a {color:#5f5f5f;}
+.submenu .first {border:none;}
+
+.menu {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; width:100%; overflow:hidden; padding:52px 0 19px 0;}
+.menu li {float:left; text-transform:uppercase; font-size:1.077em; line-height:1em; padding:0 24px 0 0; background:none;}
+.menu li a {color:#fff; text-decoration:none;}
+.menu li a:hover, .menu .active a {color:#ce0000;}
+
+.banner {float:left; width:641px;}
+.slogan {float:left; width:239px; background:#e10202 url(../images/slogan-bg.gif) top repeat-x; padding:129px 0 0 37px; height:256px;}
+h2 {font-size:2.308em; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; font-weight:normal; line-height:1em; color:#fff;}
+
+.button {background:url(../images/button-bg.gif) no-repeat 0 0 ; width:95px; display:block; text-align:center; padding:7px 0 8px 0; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; text-decoration:none; color:#fff; margin:45px 0 0 5px; letter-spacing:-1px;}
+
+/* ============================= content ====================== */
+
+#content {padding:37px 0 43px 0;}
+.col-pad {padding-right:41px;}
+.col-pad2 {padding-right:50px;}
+.col-pad3 {padding-right:27px;}
+.margin1 {margin-top:50px;}
+.margin2 {margin-top:25px;}
+
+.extra-text {color:#585858; font-size:1.154em; line-height:1.333em;}
+dl {margin-bottom:-18px;}
+dt {font-size:1.154em; line-height:1.2em; color:#cbcbcb;}
+dd {margin-bottom:18px;}
+.definition-list dt {color:#fff; font-size:1.077em;}
+
+h3 {font-size:1.538em; line-height:1em; margin-bottom:25px; color:#fff; font-weight:normal; text-transform:uppercase; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+h6 {font-size:1.154em; line-height:1.2em; color:#cbcbcb; font-weight:normal; margin-bottom:12px;}
+
+.link {background:#ce0000 url(../images/link-right-bg.gif) right top no-repeat; color:#fff; text-transform:uppercase; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; display:inline-block; font-size:.923em; line-height:1em; margin-top:25px; text-decoration:none;}
+.link span {display:inline-block; background:url(../images/link-left-bg.gif) left top no-repeat; padding:10px 19px 11px 15px;}
+.link:hover {background:#a81b1b url(../images/link-right-bg2.gif) right top no-repeat;}
+.link:hover span {background:url(../images/link-left-bg2.gif) left top no-repeat;}
+
+.line-hor {border-bottom:1px solid #212121; padding-bottom:17px; margin-bottom:16px;}
+.line-hor2 {border-bottom:1px solid #212121; padding-bottom:35px; margin-bottom:33px;}
+.name {font-size:1.154em; line-height:1.2em; color:#cbcbcb; text-align:right;}
+.phone {display:inline-block; width:62px;}
+
+/* ============================= footer ====================== */
+
+#footer {background:#000; font-size:.769em; text-transform:uppercase; line-height:1em; color:#5f5f5f; padding:18px 0 0 24px;}
+#footer a {color:#cbcbcb;}
+
+/* ============================= forms ============================= */
+
+
+#ContactForm label {height:30px; display:block;}
+#ContactForm .taright {text-align:right; padding:15px 0 0 0;}
+
+.input {width:269px; border:1px solid #2d2d2d; background:none; padding:3px 0 3px 5px; font-size:1em;}
+textarea {width:269px; height:92px; border:1px solid #2d2d2d; background:none; padding:0 0 0 5px; overflow:auto; font-size:1em;}

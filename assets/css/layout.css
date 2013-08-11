@@ -1,0 +1,89 @@
+#main { width:918px; margin:0 auto; text-align:left;}
+
+#header {height:497px;}
+
+#footer { height:46px;}
+
+.col-1, .col-2, .col-3 {float:left;}
+.container {width:100%; overflow:hidden;}
+
+/* ============================= page1 ===========================*/
+
+#page1 .line {background:url(../images/line.gif) repeat-y 297px 0;}
+#page1 .line2 {background:url(../images/line.gif) repeat-y 618px 0;}
+#page1 .banners .col-1 {width:279px;}
+#page1 .banners .col-2 {width:280px;}
+#page1 .banners .col-3 {width:276px;}
+
+#page1 .col-1 {width:592px;}
+#page1 .col-2 {width:276px;}
+
+/* ============================= page2 ===========================*/
+
+#page2 .line {background:url(../images/line.gif) repeat-y 297px 0;}
+#page2 .col-1 {width:276px;}
+#page2 .col-2 {width:592px;}
+
+#page2 .col-2 .col-1 {width:270px;}
+#page2 .col-2 .col-2 {width:270px;}
+
+/* ============================= page3 ===========================*/
+
+#page3 .line {background:url(../images/line.gif) repeat-y 297px 0;}
+#page3 .line2 {background:url(../images/line.gif) repeat-y 618px 0;}
+#page3 .banners .col-1 {width:279px;}
+#page3 .banners .col-2 {width:280px;}
+#page3 .banners .col-3 {width:276px;}
+
+#page3 .col-1 {width:592px;}
+#page3 .col-2 {width:276px;}
+
+#page3 .col-1 .col-1 {width:164px;}
+#page3 .col-1 .col-2 {width:164px;}
+#page3 .col-1 .col-3 {width:164px;}
+
+/* ============================= page4 ===========================*/
+
+#page4 .line {background:url(../images/line.gif) repeat-y 297px 0;}
+#page4 .col-1 {width:276px;}
+#page4 .col-2 {width:592px;}
+
+#page4 .col-2 .col-1 {width:270px;}
+#page4 .col-2 .col-2 {width:270px;}
+
+/* ============================= page5 ===========================*/
+
+#page5 .line {background:url(../images/line.gif) repeat-y 618px 0;}
+#page5 .col-1{width:598px;}
+#page5 .col-2 {width:270px;}
+
+#page5 .col-1 .col-1 {width:272px;}
+#page5 .col-1 .col-2 {width:272px;}
+
+/* ============================= page6 ===========================*/
+
+#page6 .line {background:url(../images/line.gif) repeat-y 297px 0;}
+#page6 .line2 {background:url(../images/line.gif) repeat-y 618px 0;}
+#page6 .banners .col-1 {width:279px;}
+#page6 .banners .col-2 {width:280px;}
+#page6 .banners .col-3 {width:276px;}
+
+#page6 .col-1 {width:592px;}
+#page6 .col-2 {width:276px;}
+
+#page6 .col-1 .col-1 {width:164px;}
+#page6 .col-1 .col-2 {width:164px;}
+#page6 .col-1 .col-3 {width:164px;}
+
+/* ============================= page7 ===========================*/
+
+#page7 .line {background:url(../images/line.gif) repeat-y 297px 0;}
+#page7 .col-1 {width:276px;}
+#page7 .col-2 {width:592px;}
+
+#page7 .col-2 .col-1 {width:270px;}
+#page7 .col-2 .col-2 {width:270px;}
+
+#page7 .col-2 .type2 .col-1 {width:183px;}
+#page7 .col-2 .type2 .col-2 {width:166px;}
+#page7 .col-2 .type2 .col-3 {width:166px;}
