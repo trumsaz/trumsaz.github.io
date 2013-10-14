@@ -14,7 +14,7 @@
     <!--header -->
     <div id="header">
       <div id="logo-div">
-        <a href="/" id="logo"></a>
+        <a href="/{% if page.language != 'en' %}{{ page.language }}{% endif %}" id="logo"></a>
         <span>EXPERT TRANSPORTATION</span>
       </div>
       <!-- <a href="index.html"><img alt="" src="/assets/images/logo.png" class="logo" /></a> -->
