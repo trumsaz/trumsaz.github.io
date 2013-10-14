@@ -16,20 +16,18 @@
       <a href="index.html"><img alt="" src="/assets/images/logo.png" class="logo" /></a>
       <div class="row1">
         <div class="container">
-          <!-- <ul class="submenu">
-            <li class="first"><a href="#">Support </a></li>
-            <li><a href="faqs.html">FAQs </a></li>
-            <li><a href="#">Sitemap </a></li>
-            <li><a href="#">Help </a></li>
-          </ul> -->
-          FRIDAY, JULY 18, 2008 12:00
+          <ul class="submenu">
+            <li class="first"><a href="/">EN</a></li>
+            <li><a href="/de">DE</a></li>
+          </ul>
+          <!-- FRIDAY, JULY 18, 2008 12:00 -->
         </div>
       </div>
       <ul class="menu">
         {% for order in (1..10) %}
           {% for p in site.pages %}
             {% if p.order %}
-              {% if p.order == order %}
+              {% if p.order == order and p.language == page.language %}
                 <li {% if p.url == page.url %}class="active"{% endif %}>
                   <a href="{{ p.url }}">{{ p.title }}</a>
                 </li>
