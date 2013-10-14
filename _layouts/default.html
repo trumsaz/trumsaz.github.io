@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{{ page.title }}</title>
-  <meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>{{ page.title }}</title>
+	<meta name="viewport" content="width=device-width">
 
-  <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
-  <link href="/assets/css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="/assets/css/layout.css" rel="stylesheet" type="text/css" />
 </head>
 <body id="page{{ page.order }}">
-  <div id="main">
-    <!--header -->
-    <div id="header">
-      <div id="logo-div">
-        <a href="/{% if page.language != 'en' %}{{ page.language }}{% endif %}" id="logo">
-          <img src="/assets/images/logo.png" alt="">
-        </a>
-        <span>EXPERT TRANSPORTATION</span>
-      </div>
-      <!-- <a href="index.html"><img alt="" src="/assets/images/logo.png" class="logo" /></a> -->
-      <div class="row1">
-        <div class="container">
-          <ul class="submenu">
-            <li class="first"><a href="/">EN</a></li>
-            <li><a href="/de">DE</a></li>
-            <li><a href="/ru">RU</a></li>
-          </ul>
-          <!-- FRIDAY, JULY 18, 2008 12:00 -->
-        </div>
-      </div>
-      <ul class="menu">
-        {% for order in (1..10) %}
-          {% for p in site.pages %}
-            {% if p.order %}
-              {% if p.order == order and p.language == page.language %}
-                <li {% if p.url == page.url %}class="active"{% endif %}>
-                  <a href="{{ p.url }}">{{ p.title }}</a>
-                </li>
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-      </ul>
-      <div class="container">
-        <div class="banner">
-          <img alt="" src="/assets/images/header-bg.jpg" /><br />
-        </div>
-        <div class="slogan">
-          <h3>Contact us:</h3>
-          <h3>+994 50 227 88 85</h3>
-          <h3>info@trums.az</h3>
-          <!-- <a href="#" class="button">read more</a> -->
-        </div>
-      </div>
-    </div>
-    <!--header end-->
-    <div id="content">
-      {{ content }}
-    </div>
-    <!--footer -->
-    <div id="footer">Trums.az &copy; {{ site.time | date: '%Y' }}</div>
-    <!--footer end-->
-  </div>
+	<div id="main">
+		<!--header -->
+		<div id="header">
+			<div id="logo-div">
+				<a href="/{% if page.language != 'en' %}{{ page.language }}{% endif %}" id="logo">
+					<img src="/assets/images/logo.png" alt="">
+				</a>
+				<span>EXPERT TRANSPORTATION</span>
+			</div>
+			<!-- <a href="index.html"><img alt="" src="/assets/images/logo.png" class="logo" /></a> -->
+			<div class="row1">
+				<div class="container">
+					<ul class="submenu">
+						<li class="first"><a href="/">EN</a></li>
+						<li><a href="/de">DE</a></li>
+						<li><a href="/ru">RU</a></li>
+					</ul>
+					<!-- FRIDAY, JULY 18, 2008 12:00 -->
+				</div>
+			</div>
+			<ul class="menu">
+				{% for order in (1..10) %}
+					{% for p in site.pages %}
+						{% if p.order %}
+							{% if p.order == order and p.language == page.language %}
+								<li {% if p.url == page.url %}class="active"{% endif %}>
+									<a href="{{ p.url }}">{{ p.title }}</a>
+								</li>
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+			</ul>
+			<div class="container">
+				<div class="banner">
+					<img alt="" src="/assets/images/header-bg.jpg" /><br />
+				</div>
+				<div class="slogan">
+					<h3>Contact us:</h3>
+					<h3>+994 50 227 88 85</h3>
+					<h3>info@trums.az</h3>
+					<!-- <a href="#" class="button">read more</a> -->
+				</div>
+			</div>
+		</div>
+		<!--header end-->
+		<div id="content">
+			{{ content }}
+		</div>
+		<!--footer -->
+		<div id="footer">Trums.az &copy; {{ site.time | date: '%Y' }}</div>
+		<!--footer end-->
+	</div>
 </body>
 </html>
