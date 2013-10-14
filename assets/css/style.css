@@ -91,6 +91,10 @@ h6 {font-size:1.154em; line-height:1.2em; color:#cbcbcb; font-weight:normal; mar
 .name {font-size:1.154em; line-height:1.2em; color:#cbcbcb; text-align:right;}
 .phone {display:inline-block; width:62px;}
 
+.partners { text-align: center; }
+.partners img { width: 100px; margin-bottom: 7px; }
+.partners a { display: block; }
+
 /* ============================= footer ====================== */
 
 #footer {background:#000; font-size:.769em; text-transform:uppercase; line-height:1em; color:#5f5f5f; padding:18px 0 0 24px;}
