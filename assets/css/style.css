@@ -92,8 +92,8 @@ h6 {font-size:1.154em; line-height:1.2em; color:#cbcbcb; font-weight:normal; mar
 .phone {display:inline-block; width:62px;}
 
 .partners { text-align: center; }
-.partners img { width: 100px; margin-bottom: 7px; }
-.partners a { display: block; }
+.partners img { width: 90px; margin-bottom: 7px; }
+.partners td { padding: 0 20px; }
 
 /* ============================= footer ====================== */
 
