@@ -43,7 +43,7 @@ li { background:url(../images/marker1.gif) no-repeat 0 7px; padding-left:12px; l
 /* ============================= header ====================== */
 
 #logo-div {position:absolute; margin:53px 0 0 641px; width: 276px; height: 60px;}
-#logo-div a {display: block; float: left; width: 55px; height: 55px; padding-top: 5px; background: #e10202 url(../images/slogan-bg.gif) top repeat-x; text-align: center;}
+#logo-div a {display: block; float: left; width: 55px; height: 55px; padding-top: 5px; background: #d20001; text-align: center;}
 #logo-div span {display: block; float: left; color: white; font-size: 14pt; width: 211px; padding-top: 12px; padding-left: 10px;}
 
 .row1 {background:#000; font-size:.769em; text-transform:uppercase; line-height:1em; color:#5f5f5f; padding:9px 24px 9px 15px;}
@@ -58,7 +58,8 @@ li { background:url(../images/marker1.gif) no-repeat 0 7px; padding-left:12px; l
 .menu li a:hover, .menu .active a {color:#ce0000;}
 
 .banner {float:left; width:641px;}
-.slogan {float:left; width:239px; background:#e10202 url(../images/slogan-bg.gif) top repeat-x; padding:129px 0 0 37px; height:256px;}
+.slogan {float:right; width: 248px; background:#d20001; padding:10px 0 20px 28px; margin-top: 230px;text-shadow: 1px 2px 3px #666;}
+.slogan h3 { margin: 0; margin-top: 10px; font-size: 16pt;}
 h2 {font-size:2.308em; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; font-weight:normal; line-height:1em; color:#fff;}
 
 .button {background:url(../images/button-bg.gif) no-repeat 0 0 ; width:95px; display:block; text-align:center; padding:7px 0 8px 0; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; text-decoration:none; color:#fff; margin:45px 0 0 5px; letter-spacing:-1px;}
@@ -108,3 +109,6 @@ h6 {font-size:1.154em; line-height:1.2em; color:#cbcbcb; font-weight:normal; mar
 
 .input {width:269px; border:1px solid #2d2d2d; background:none; padding:3px 0 3px 5px; font-size:1em;}
 textarea {width:269px; height:92px; border:1px solid #2d2d2d; background:none; padding:0 0 0 5px; overflow:auto; font-size:1em;}
+
+
+#banner { width:100%; height: 385px; overflow:hidden; background: url(../images/banner.jpg) no-repeat;}
