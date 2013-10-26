@@ -58,7 +58,7 @@ li { background:url(../images/marker1.gif) no-repeat 0 7px; padding-left:12px; l
 .menu li a:hover, .menu .active a {color:#ce0000;}
 
 .banner {float:left; width:641px;}
-.slogan {float:right; width: 248px; background:#d20001; padding:10px 0 20px 28px; margin-top: 230px;text-shadow: 1px 2px 3px #666;}
+.slogan {float:right; width: 248px; background:#d20001; padding:10px 0 20px 28px; margin-top: 260px;text-shadow: 1px 2px 3px #666;}
 .slogan h3 { margin: 0; margin-top: 10px; font-size: 16pt;}
 h2 {font-size:2.308em; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; font-weight:normal; line-height:1em; color:#fff;}
 
@@ -93,7 +93,7 @@ h6 {font-size:1.154em; line-height:1.2em; color:#cbcbcb; font-weight:normal; mar
 .phone {display:inline-block; width:62px;}
 
 .partners { text-align: center; }
-.partners img { width: 90px; margin-bottom: 7px; }
+.partners img { width: 100px; margin-bottom: 7px; }
 .partners td { padding: 0 20px; }
 
 /* ============================= footer ====================== */
