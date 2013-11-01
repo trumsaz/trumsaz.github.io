@@ -59,7 +59,7 @@ li { background:url(../images/marker1.gif) no-repeat 0 7px; padding-left:12px; l
 
 .banner {float:left; width:641px;}
 .slogan {float:right; width: 248px; background:#d20001; padding:10px 0 20px 28px; margin-top: 260px;text-shadow: 1px 2px 3px #666;}
-.slogan h3 { margin: 0; margin-top: 10px; font-size: 16pt;}
+.slogan h3 { margin: 0; margin-top: 10px; font-size: 15pt;}
 h2 {font-size:2.308em; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; font-weight:normal; line-height:1em; color:#fff;}
 
 .button {background:url(../images/button-bg.gif) no-repeat 0 0 ; width:95px; display:block; text-align:center; padding:7px 0 8px 0; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; text-decoration:none; color:#fff; margin:45px 0 0 5px; letter-spacing:-1px;}
