@@ -43,7 +43,7 @@ li { background:url(../images/marker1.gif) no-repeat 0 7px; padding-left:12px; l
 /* ============================= header ====================== */
 
 #logo-div {position:absolute; margin:53px 0 0 641px; width: 276px; height: 60px;}
-#logo-div a {display: block; float: left; width: 55px; height: 55px; padding-top: 5px; background: #d20001; text-align: center;}
+#logo-div a {display: block; float: left; width: 55px; height: 55px; padding-top: 5px; /*background: #d20001;*/ text-align: center;}
 #logo-div span {display: block; float: left; color: white; font-size: 14pt; width: 211px; padding-top: 12px; padding-left: 10px;}
 
 .row1 {background:#000; font-size:.769em; text-transform:uppercase; line-height:1em; color:#5f5f5f; padding:9px 24px 9px 15px;}
